@@ -230,3 +230,13 @@ article {
 article .pris {
   margin-top: auto;
 }
+
+.meny-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.meny-lista article {
+  margin-bottom: 0;
+}
